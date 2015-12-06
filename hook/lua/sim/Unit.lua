@@ -174,7 +174,7 @@ Unit = Class(oldUnit) {
             
             -- Allow units to require more or less mass to level up. Decimal multipliers mean
             -- faster leveling, >1 mean slower. Doing this here means doing it once instead of every kill.
-            local defaultMult = 2
+            local defaultMult = 1.5
             self.Sync.myValue = math.floor(bp.Economy.BuildCostMass * (bp.Veteran.RequirementMult or defaultMult))
         end
         oldUnit.OnStopBeingBuilt(self, builder, layer)
@@ -229,5 +229,5 @@ Unit = Class(oldUnit) {
         return prop
     end,	
 	
-}
 
+}
