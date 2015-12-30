@@ -1,21 +1,26 @@
-#Pillar
-	
+--Pillar
+    
 UnitBlueprint {
 Merge = true,
 BlueprintId = "uel0202",
 
-	Economy = {
+    Economy = {
         BuildCostEnergy = 1000,
         BuildCostMass = 200,
         BuildTime = 1000,
     },
-	Weapon = {
-		{
-		Damage = 60,		#60dps
-		RateOfFire = 0.5,
-		},
-	},
-	Buffs = {
+    Physics = {
+        MaxAcceleration = 2.9,  --from 3
+        MaxSpeed = 2.9,
+        MaxSpeedReverse = 2.9,
+    },
+    Weapon = {
+        {
+        Damage = 60,        --60dps
+        RateOfFire = 0.5,
+        },
+    },
+    Buffs = {
         Regen = {
             Level1 = 4,
             Level2 = 6,
@@ -24,7 +29,7 @@ BlueprintId = "uel0202",
             Level5 = 12,
         },
     },
-	Veteran = {
+    Veteran = {
         Level1 = 6,
         Level2 = 12,
         Level3 = 18,

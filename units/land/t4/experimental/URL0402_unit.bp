@@ -1,4 +1,4 @@
-#Monkey lord
+--Monkey lord
 
 UnitBlueprint {
 Merge = true,
@@ -15,17 +15,17 @@ BlueprintId = "url0402",
     },
     Defense = {
         Health = 40000,
-        MaxHealth = 40000,		#from 45 000
+        MaxHealth = 40000,        --from 45 000
         RegenRate = 15,
     },
     Economy = {
         BuildCostEnergy = 250000,
         BuildCostMass = 20000,
-        BuildTime = 33333,					# its three time faster as build same mass in percivals/bricks
-        MaintenanceConsumptionPerSecondEnergy = 250,		#from 400
+        BuildTime = 33333,                    -- its three time faster as build same mass in percivals/bricks
+        MaintenanceConsumptionPerSecondEnergy = 250,        --from 400
     },
     Veteran = {
-	RequirementMult = 0.5,
+    RequirementMult = 0.5,
         Level1 = 60,
         Level2 = 120,
         Level3 = 180,
@@ -34,6 +34,40 @@ BlueprintId = "url0402",
     },
     Weapon = {
         {
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMANDER',
+                'EXPERIMENTAL',
+                'SUBCOMMANDER',
+                'TECH3 MOBILE',
+                'STRUCTURE DEFENSE',
+                'TECH2 MOBILE',
+                'TECH1 MOBILE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+        },
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMANDER',
+                'TECH1 MOBILE',
+                'TECH2 MOBILE',
+                'TECH3 MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+        {
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMANDER',
+                'TECH1 MOBILE',
+                'TECH2 MOBILE',
+                'TECH3 MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
         },
         {
         },
@@ -42,10 +76,7 @@ BlueprintId = "url0402",
         {
         },
         {
-        },
-        {
-            Damage = 100,		#from 50 = 100dps
-            DamageType = 'Normal',
+            Damage = 100,        --from 50 = 100dps
         },
         {
         },

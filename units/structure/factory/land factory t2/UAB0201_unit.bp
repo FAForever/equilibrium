@@ -8,6 +8,9 @@ Economy = {
         BuildRate = 50,
         BuildTime = 2250,
         StorageEnergy = 0,
-		StorageMass = 0,
+        StorageMass = 0,
     },
-}	
+    Intel = {
+        RadarStealth = true,      --for not be visible on radar after upgrading
+    },
+}    

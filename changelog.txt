@@ -1,3 +1,115 @@
+v.33
+----
+
+- air staging facility T1 building,  e 1500(2250) bt 150(187,5)
+
+- Sera Litning tank ground fire aoe 1 (0.5)
+
+- Bouncer GF projectile lead target
+-- dps 100 (180)
+-- hp 1800 (2100)
+-- speed 2,6 (2,7)
+-- AA able fire from transport, add diplay AA ghetto
+-- removet targeting lasser becasue cause problems by shitons of cry in log
+
+- Sky slammer AA can fire from transport -> its feauture, not bug
+-- add diplay "AA Ghetto"
+
+- Lab + selen add "Ghetto" on dysplay
+
+- add Washy ui mod that refresh jaming every 5second,  didnt work, now
+--its not ideal because its ui mod and as sim can be better. 
+
+- cybran/uef/sera tmd range 31.5(30) for prevent ground fire tml abuse. 
+-- muzzle velocity 150 (100)
+
+- aeon tmd projectile, change acceleration 5 (1) -> it dont allow tml fly on place aware tmd, work as other tmd now. 
+-- tmd bubble life time 2s (4s) (changed also on projectile)
+-- tmd bubble rof 0,666 (0,32)
+-- price: 300m (200) 3000e (2000) 375bt (312,5)
+
+-sera lab, remove script with dont fire while in invis, because it colide with fire from transport so labs dnt fire from transport. 
+-- it need some line of cide, that would be as: if not in transport then... (but dont know how to do it right now)
+
+- acu target priority -> removed mobile enginer from TP (no clue why i even add it)
+
+- sera cruiser flak 30muzzle (20)
+-- 100dmg (from 120)
+-- 3aoe (from 4)
+
+- experimental land units change target priority for acu on higer priority
+-- gc, ml, mega, yotha, fateboy
+-- some small tweak of priority as defensive structure add higer as T2/t3 units
+
+- SERA/AEON mobile flak
+-- 60muzzle (27,5)
+-- 140dps
+-- 3rof (2.5)
+- CYB/UEF mobile flak
+-- 55muzzle (25)
+-- 112dps
+-- 4aoe (3)
+
+- STATIC FLAK    ---> maybe need better visible projectile
+-- SERA/CYB muzzle 55(25) 48r(44)
+-- AOEN/UEF muzzle 60(30) 54r(50)
+
+
+- janus AA 300per shot (150) 
+-- rof 2s (1x)
+-- ground fire damage 800 (600)
+-- ground burst dmg 300 (400)
+-- ground aoe 5 (4,5)
+-- 950hp (975)
+
+- corsair rof 2s (1s) double aa damage 
+-- ground damage 1000 (900)
+-- aoe 2,5(2)
+-- remove change firing randomnes
+-- remove code from weapon that was same as is standard code
+-- hp 900 (925)
+
+- notha rof 2s(1s, double AA dmg, 
+-- ground damage 1050 (950)
+-- hp 925(950)
+
+- swift winds 900hp (800)
+
+
+- T3 bombers 16sp(15) change only in excel file, because already done :) 
+- asf 525m 35 000e 4200bt (500m 25000e 3000bt)
+
+- sera t3 spy plane remove toggle for stealth, remove maintance cost, full invis is for free when not move. 
+-- 700hp (200)
+
+- pilar speed 2,9 (3)
+- sera t3 mobile shield 2000hp (1000)
+- aeon t3 mobile artilery muzzle velocity change removed (cause miss issue) 
+
+- UEF t3 gunship optimilize file to save +-1MB
+
+
+- fire beetle yellow range for dmg
+- aoe dmg 5.5 (6)
+- Intel 15 (24)
+- energy consume 100 (50)
+--> need check if its not insine strong becasue can destroy 15 t2 tanks in formation with single beetle. 
+--> because also destroy ally unit even when its destroed so can be super cancer even for owner. 
+--> when bug that destroy even whendestroyed will be fixed, then add volatility with half dmg and less aoe after death. 
+
+
+
+-! brick add {} for anti torpedo -> was missing
+-- change anti-torpedo range category for RangeCategory = 'UWRC_AntiNavy',
+
+- T1 mex add stealth (for not be visible after upgrade as gray color)
+- t1 air/land/naval factory add stealth
+- t2 air/land/naval factory add stealth
+- t3 air/land/naval factory add stealth
+--> keep this change until regular game fix intel issue. 
+
+
+
 v.32
 ______
 

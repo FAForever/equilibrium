@@ -52,7 +52,7 @@ UnitBlueprint {
     },
     BuildIconSortPriority = 25,
     Categories = {
-		'PRODUCTDL',
+        'PRODUCTDL',
         'SELECTABLE',
         'BUILTBYTIER3FACTORY',
         'CYBRAN',
@@ -64,21 +64,21 @@ UnitBlueprint {
         'RECLAIMABLE',
         'BOT',
         'OVERLAYANTIAIR',
-		'OVERLAYDIRECTFIRE',
+        'OVERLAYDIRECTFIRE',
     },
     Defense = {
         AirThreatLevel = 27,
         ArmorType = 'Normal',
         EconomyThreatLevel = 0,
-        Health = 2100,
-        MaxHealth = 2100,
+        Health = 1800,
+        MaxHealth = 1800,
         RegenRate = 0,
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
     Description = '<LOC DRLK001_desc>Mobile Missile Anti-Air',
     Display = {
-	    Abilities = {
+        Abilities = {
             '<LOC ability_aa>Anti-Air',
         },
         AnimationDeath = {
@@ -97,7 +97,7 @@ UnitBlueprint {
             LODs = {
                 {
                     LODCutoff = 200,
-					Scrolling = true,
+                    Scrolling = true,
                     ShaderName = 'Insect',
                 },
             },
@@ -123,7 +123,7 @@ UnitBlueprint {
                 Weight = 100,
             },
         },
-		TransportDropAnimation = {
+        TransportDropAnimation = {
             {
                 Animation = '/units/DRLK001/DRLK001_unfold.sca',
                 Weight = 100,
@@ -182,9 +182,9 @@ UnitBlueprint {
             LAYER_Water = false,
         },
         DragCoefficient = 0.2,
-        MaxAcceleration = 2.7,
-        MaxBrake = 2.7,
-        MaxSpeed = 2.7,
+        MaxAcceleration = 2.6,
+        MaxBrake = 2.6,
+        MaxSpeed = 2.6,
         MaxSpeedReverse = 0,
         MaxSteerForce = 7,
         MinSpeedPercent = 0,
@@ -214,7 +214,7 @@ UnitBlueprint {
         Level5 = 125,
     },
     Weapon = {
-		{
+        {
             AlwaysRecheckTarget = true,
             Audio = {
                 Fire = Sound {
@@ -249,46 +249,46 @@ UnitBlueprint {
                 {
                     MuzzleBones = {
                         'Turret_Muzzle_01',
-						'Turret_Muzzle_04',
+                        'Turret_Muzzle_04',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_02',
-						'Turret_Muzzle_05',
+                        'Turret_Muzzle_02',
+                        'Turret_Muzzle_05',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_03',
-						'Turret_Muzzle_06',
+                        'Turret_Muzzle_03',
+                        'Turret_Muzzle_06',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
                         'Turret_Muzzle_01',
-						'Turret_Muzzle_04',
+                        'Turret_Muzzle_04',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_02',
-						'Turret_Muzzle_05',
+                        'Turret_Muzzle_02',
+                        'Turret_Muzzle_05',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_03',
-						'Turret_Muzzle_06',
+                        'Turret_Muzzle_03',
+                        'Turret_Muzzle_06',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				
+                
             },
             RackFireTogether = false,
             RackRecoilDistance = 0,
@@ -312,11 +312,10 @@ UnitBlueprint {
                 'ALLUNITS',
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
-			ToggleWeapon = 'GroundGun',
             TrackingRadius = 1.4,
             TurretBoneMuzzle = 'Turret_Muzzle_01',
             TurretBonePitch = 'Turret_Barrel01',
-			TurretBoneYaw = 'Turret01',
+            TurretBoneYaw = 'Turret01',
             TurretDualManipulators = false,
             TurretPitch = 35,
             TurretPitchRange = 60,
@@ -327,78 +326,7 @@ UnitBlueprint {
             Turreted = true,
             WeaponCategory = 'Anti Air',
         },
-		{
-			AimsStraightOnDisable = true,
-            AlwaysRecheckTarget = true,
-            BallisticArc = 'RULEUBA_None',
-            CannotAttackGround = true,
-            BeamCollisionDelay = 0.2,
-            BeamLifetime = 0,
-            CollideFriendly = false,
-			ContinuousBeam = true,
-            Damage = 0,
-            DamageFriendly = false,
-            DamageType = 'Normal',
-            DisplayName = 'Targeting Laser',
-            FireTargetLayerCapsTable = {
-                Air = 'Air',
-                Land = 'Air',
-                Water = 'Air',
-            },
-            FiringRandomness = 0,
-            FiringTolerance = 2,
-            Label = 'Lazor',
-            MaxRadius = 60,
-            MuzzleSalvoDelay = 0,
-            MuzzleSalvoSize = 1,
-			PreferPrimaryWeaponTarget = true,
-            ProjectileLifetimeUsesMultiplier = 1.15,
-            RackBones = {
-                {
-                    MuzzleBones = {
-                        'Lazor',
-                    },
-                    RackBone = 'Lazor',
-                },
-            },
-            RackFireTogether = false,
-            RackRecoilDistance = 0,
-            RackReloadTimeout = 0,
-            RackSalvoChargeTime = 0,
-            RackSalvoReloadTime = 0,
-            RackSalvoSize = 1,
-            RackSlavedToTurret = false,
-            RateOfFire = 3,
-            ReTargetOnMiss = true,
-            TargetCheckInterval = 0.3,
-            TargetPriorities = {
-                'SPECIALHIGHPRI',
-                'AIR MOBILE HIGHPRIAIR',
-                'AIR MOBILE TECH3 BOMBER',
-                'AIR MOBILE BOMBER',
-                'AIR MOBILE GROUNDATTACK',
-                'AIR MOBILE TRANSPORTATION',
-                'AIR MOBILE',
-                'SPECIALLOWPRI',
-                'ALLUNITS',
-            },
-            TargetRestrictDisallow = 'UNTARGETABLE',
-            TrackingRadius = 1.4,
-            TurretBoneMuzzle = 'Lazor',
-            TurretBonePitch = 'Lazor',
-            TurretBoneYaw = 'Lazor',
-            TurretDualManipulators = false,
-            TurretPitch = 0,
-            TurretPitchRange = 180,
-            TurretPitchSpeed = 180,
-            TurretYaw = 0,
-            TurretYawRange = 180,
-            TurretYawSpeed = 180,
-            Turreted = true,
-			UseFiringSolutionInsteadOfAimBone = true,
-            WeaponCategory = 'Anti Air',
-        },
-		{
+        {
             AlwaysRecheckTarget = true,
             Audio = {
                 Fire = Sound {
@@ -410,7 +338,7 @@ UnitBlueprint {
             BallisticArc = 'RULEUBA_None',
             CannotAttackGround = false,
             CollideFriendly = false,
-            Damage = 54,				#180dps
+            Damage = 30,                --100dps
             DamageType = 'Normal',
             DisplayName = 'Nanodart Ground Launcher',
             FireTargetLayerCapsTable = {
@@ -418,11 +346,11 @@ UnitBlueprint {
                 Land = 'Land',
                 Water = 'Land',
             },
-            FiringRandomness = 0,		#from 1
-			FiringRandomnessWhileMoving = 0.75,		#add im not sure if this parameter work
+            FiringRandomness = 0,        --from 1
+            FiringRandomnessWhileMoving = 0.75,        --add im not sure if this parameter work
             FiringTolerance = 2,
             Label = 'GroundGun',
-            MaxRadius = 38,				#from 25
+            MaxRadius = 38,                --from 25
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 2,
             MuzzleVelocity = 10,
@@ -433,46 +361,46 @@ UnitBlueprint {
                 {
                     MuzzleBones = {
                         'Turret_Muzzle_01',
-						'Turret_Muzzle_04',
+                        'Turret_Muzzle_04',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_02',
-						'Turret_Muzzle_05',
+                        'Turret_Muzzle_02',
+                        'Turret_Muzzle_05',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_03',
-						'Turret_Muzzle_06',
+                        'Turret_Muzzle_03',
+                        'Turret_Muzzle_06',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
                         'Turret_Muzzle_01',
-						'Turret_Muzzle_04',
+                        'Turret_Muzzle_04',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_02',
-						'Turret_Muzzle_05',
+                        'Turret_Muzzle_02',
+                        'Turret_Muzzle_05',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				{
+                {
                     MuzzleBones = {
-						'Turret_Muzzle_03',
-						'Turret_Muzzle_06',
+                        'Turret_Muzzle_03',
+                        'Turret_Muzzle_06',
                     },
                     RackBone = 'Turret_Barrel01',
                 },
-				
+                
             },
             RackFireTogether = false,
             RackRecoilDistance = 0,
@@ -494,11 +422,10 @@ UnitBlueprint {
                 'ALLUNITS',
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
-			ToggleWeapon = 'AAGun',
             TrackingRadius = 1.4,
             TurretBoneMuzzle = 'Turret_Muzzle_01',
             TurretBonePitch = 'Turret_Barrel01',
-			TurretBoneYaw = 'Turret01',
+            TurretBoneYaw = 'Turret01',
             TurretDualManipulators = false,
             TurretPitch = 35,
             TurretPitchRange = 60,

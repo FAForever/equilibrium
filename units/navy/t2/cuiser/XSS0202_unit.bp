@@ -1,4 +1,4 @@
-#T2 Ithalua cruiser
+--T2 Ithalua cruiser
 
 UnitBlueprint {
 Merge = true,
@@ -14,7 +14,7 @@ BlueprintId="xss0202",
         },
     },
     Economy = {
-        BuildCostEnergy = 13000,	#from 18000
+        BuildCostEnergy = 13000,    --from 18000
         BuildCostMass = 1950,
         BuildTime = 7800,
     },
@@ -30,5 +30,19 @@ BlueprintId="xss0202",
         Level3 = 180,
         Level4 = 240,
         Level5 = 300,
+    },
+    Weapon = {
+        {
+        },
+        {
+                        -- flak
+            Damage = 100,   -- from 120
+            DamageRadius = 3,   -- from 4
+            MuzzleVelocity = 30,    -- from 20
+        },
+        {
+        },
+        {
+        },
     },
 }
