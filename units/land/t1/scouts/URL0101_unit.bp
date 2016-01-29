@@ -1,0 +1,12 @@
+--Cybran scout
+
+UnitBlueprint {
+Merge = true,
+BlueprintId = "url0101",
+
+    Economy = {
+        BuildCostEnergy = 100,      --80e
+        BuildCostMass = 10,         --8m
+        BuildTime = 50,             --80bt
+    },
+}

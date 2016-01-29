@@ -1,0 +1,18 @@
+--T2 TMD
+    
+UnitBlueprint {
+Merge = true,
+BlueprintId = "uab4201",
+
+    Economy = {
+        BuildCostEnergy = 3000,
+        BuildCostMass = 300,
+        BuildTime = 375,
+    },
+    Weapon = {
+        {
+            RateOfFire = 0.66,          -- fromo 0,32
+            ProjectileLifetime = 2,     -- from4
+        },
+    },
+}

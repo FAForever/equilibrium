@@ -1,0 +1,40 @@
+--Air staging facility
+
+UnitBlueprint {
+Merge = true,
+BlueprintId = "uab5202", 
+
+    AI = {
+        GuardScanRadius = 300,
+        RefuelingMultiplier = 50,
+        RefuelingRepairAmount = 500,
+        RepairConsumeEnergy = 0, -- making repair free
+        RepairConsumeMass = 0, -- making repair free
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER1ENGINEER', -- add
+        'BUILTBYTIER2ENGINEER',
+        'BUILTBYTIER3ENGINEER',
+        'BUILTBYTIER2COMMANDER',
+        'BUILTBYTIER3COMMANDER',
+        'AEON',
+        'STRUCTURE',
+        'STRATEGIC',
+        'TECH1',        -- from TECH2
+        'AIRSTAGINGPLATFORM',
+        'DRAGBUILD',
+        'SIZE12',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'OVERLAYMISC',
+        'SORTSTRATEGIC',
+    },
+    Economy = {
+        BuildCostEnergy = 1500,
+        BuildCostMass = 150,
+        BuildTime = 150,
+    },
+    StrategicIconName = 'icon_structure1_air',
+}

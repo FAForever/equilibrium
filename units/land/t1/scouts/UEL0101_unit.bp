@@ -1,0 +1,21 @@
+--UEF scout
+
+UnitBlueprint {
+Merge = true,
+BlueprintId = "uel0101",
+
+    Defense = {
+        Health = 30,    --from 29
+        MaxHealth = 30,
+    },
+    Economy = {
+        BuildCostEnergy = 150,      --80e
+        BuildCostMass = 15,         --12m
+        BuildTime = 75,             --80bt
+    },
+    Weapon = {
+        {
+            MaxRadius = 23,         --from 25
+        },
+    },
+}

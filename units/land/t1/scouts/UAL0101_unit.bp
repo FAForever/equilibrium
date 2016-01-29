@@ -1,0 +1,17 @@
+--Aeon scout
+
+UnitBlueprint {
+Merge = true,
+BlueprintId = "ual0101",
+
+    Economy = {
+        BuildCostEnergy = 150,      --40e
+        BuildCostMass = 15,         --8m
+        BuildTime = 75,             --80bt
+    },
+    Weapon = {
+        {
+            MaxRadius = 23,         --from 25
+        },
+    },
+}

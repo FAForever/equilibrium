@@ -1,0 +1,15 @@
+--T1 Air factory
+
+UnitBlueprint {
+Merge = true,
+BlueprintId = "xsb0102", 
+
+Economy = {
+        BuildCostEnergy = 3500,
+        BuildCostMass = 210,
+        BuildRate = 20,
+        BuildTime = 350,
+        StorageEnergy = 0,
+        StorageMass = 0,
+    },
+}    

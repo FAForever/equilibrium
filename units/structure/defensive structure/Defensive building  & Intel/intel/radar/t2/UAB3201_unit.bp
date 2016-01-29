@@ -1,0 +1,14 @@
+--T2 Radar 
+
+UnitBlueprint {
+Merge = true,
+BlueprintId="uab3201",
+
+    Economy = {
+        BuildCostEnergy = 4000,     --3600e
+        BuildCostMass = 200,        --180m
+        BuildRate = 25,             --21,46br
+        BuildTime = 625,            --845bt
+        MaintenanceConsumptionPerSecondEnergy = 250,
+    },
+}
