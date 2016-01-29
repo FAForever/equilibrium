@@ -17,10 +17,6 @@ BlueprintId = "uea0304",
             Level5 = 18,
         },
     },
-    Defense = {
-        Health = 3500,
-        MaxHealth = 3500,
-    },
     Economy = {
         BuildCostEnergy = 100000,
         BuildCostMass = 2000,
@@ -39,6 +35,7 @@ BlueprintId = "uea0304",
     },
     Weapon = {
         {
+            DamageFriendly = false,     --from true
             Damage = 3000,
             DamageRadius = 6,
             MaxRadius = 80,            --from 90
