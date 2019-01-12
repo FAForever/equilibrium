@@ -13,6 +13,7 @@ BlueprintId = "xsl0309",
         BuildCostMass = 375,    --20m/s
         BuildTime = 1875,        --18,75s
         BuildRate = 37.5,        --from 40
+        MaxBuildDistance = 10,
         StorageEnergy = 0,
         StorageMass = 0,
     },

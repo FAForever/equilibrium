@@ -9,6 +9,7 @@ BlueprintId = "xel0209",
         BuildCostMass = 280,    --10m per sec
         BuildTime = 1400,        --25s
         BuildRate = 20,            --17,5
+        MaxBuildDistance = 10,
         StorageEnergy = 0,
         StorageMass = 0,
     },
