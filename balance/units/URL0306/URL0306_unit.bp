@@ -10,9 +10,9 @@ BlueprintId = "url0306",
         RegenRate = 5,        --from 0 because cant get veterancy
     },
     Economy = {
-        BuildCostEnergy = 900,    --75e per sec
-        BuildCostMass = 84,        --7m per sec
-        BuildTime = 600,        --12s
+        BuildCostEnergy = 900,    --100e per sec
+        BuildCostMass = 90,        --10m per sec
+        BuildTime = 450,        --9s
         MaintenanceConsumptionPerSecondEnergy = 50,
     },
     Weapon = {
