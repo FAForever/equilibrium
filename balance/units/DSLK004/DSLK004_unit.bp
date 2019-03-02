@@ -9,7 +9,7 @@ BlueprintId = "dslk004",
         MaxHealth = 2000,
     },
     Economy = {
-        BuildCostEnergy = 10500,
+        BuildCostEnergy = 8400,
         BuildCostMass = 840,
         BuildTime = 4200,
     },
