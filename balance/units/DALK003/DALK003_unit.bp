@@ -9,7 +9,7 @@ BlueprintId = "dalk003",
         MaxHealth = 1900,
     },
     Economy = {
-        BuildCostEnergy = 9500,
+        BuildCostEnergy = 7600,
         BuildCostMass = 760,
         BuildTime = 3800,
     },
