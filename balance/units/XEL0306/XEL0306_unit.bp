@@ -9,9 +9,9 @@ BlueprintId = "xel0306",
         MaxHealth = 1500,
     },
     Economy = {
-        BuildCostEnergy = 7875,
-        BuildCostMass = 441,
-        BuildTime = 3150,
+        BuildCostEnergy = 4400,
+        BuildCostMass = 440,
+        BuildTime = 2200,
     },
     Weapon = {
         {
