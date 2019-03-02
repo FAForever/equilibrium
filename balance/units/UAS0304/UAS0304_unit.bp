@@ -9,9 +9,9 @@ BlueprintId="uas0304",
         MaxHealth = 4500,
     },
     Economy = {
-        BuildCostEnergy = 105000,
-        BuildCostMass = 7000,
-        BuildTime = 36000,
+        BuildCostEnergy = 139500,
+        BuildCostMass = 6975,
+        BuildTime = 27900,
     },
     Intel = {
         SonarRadius = 60,

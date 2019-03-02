@@ -9,9 +9,9 @@ BlueprintId="urs0304",
         MaxHealth = 5000,
     },
     Economy = {
-        BuildCostEnergy = 78750,
-        BuildCostMass = 5250,
-        BuildTime = 27000,
+        BuildCostEnergy = 107100,
+        BuildCostMass = 5220,
+        BuildTime = 20880,
         MaintenanceConsumptionPerSecondEnergy = 100,
     },
     General = {
