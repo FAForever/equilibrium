@@ -5,9 +5,9 @@ Merge = true,
 BlueprintId = "uel0307",
 
     Economy = {
-        BuildCostEnergy = 1125,    --75e per sec
-        BuildCostMass = 105,    --7m per sec
-        BuildTime = 750,        --15s
+        BuildCostEnergy = 1100,    --100e per sec
+        BuildCostMass = 110,    --10m per sec
+        BuildTime = 550,        --11s
         MaintenanceConsumptionPerSecondEnergy = 100,
     },
     Defense = {
