@@ -21,9 +21,9 @@ BlueprintId = "dal0310",
         'OVERLAYDIRECTFIRE',
     },
     Economy = {
-        BuildCostEnergy = 9250,
-        BuildCostMass = 518,
-        BuildTime = 3700,
+        BuildCostEnergy = 5200,
+        BuildCostMass = 520,
+        BuildTime = 2600,
     },
     Weapon = {
         {
