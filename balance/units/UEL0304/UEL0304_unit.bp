@@ -5,9 +5,9 @@ Merge = true,
 BlueprintId = "uel0304", 
 
     Economy = {
-        BuildCostEnergy = 12000,
+        BuildCostEnergy = 8400,
         BuildCostMass = 840,
-        BuildTime = 6000,
+        BuildTime = 4200,
     },
     Weapon = {
         {
