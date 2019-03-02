@@ -9,9 +9,9 @@ BlueprintId = "ual0111",
         MaxHealth = 650,
     },
     Economy = {
-        BuildCostEnergy = 2100,
-        BuildCostMass = 196,
-        BuildTime = 1400,
+        BuildCostEnergy = 1000,
+        BuildCostMass = 200,
+        BuildTime = 1000,
     },
     Weapon = {
         {                       -- projectile is faster
