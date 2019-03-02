@@ -38,9 +38,9 @@ BlueprintId = "ual0307",
             RULEUCC_Transport = false,
         },
     Economy = {
-        BuildCostEnergy = 1350,    --75e per sec
-        BuildCostMass = 126,    --7m per sec
-        BuildTime = 900,        --18s
+        BuildCostEnergy = 1300,    --100e per sec
+        BuildCostMass = 130,    --10m per sec
+        BuildTime = 650,        --13s
     },
     Defense = {
         Shield = {
